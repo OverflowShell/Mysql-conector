@@ -2,7 +2,7 @@ from tkinter import *
 import pymysql
 import subprocess
 class tkinter(object):
-    def connect(self):
+    def init(self):
         try:
             self.y = pymysql.connect(
                 host = "localhost",
